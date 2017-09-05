@@ -1,5 +1,5 @@
 # Blocky
-A Swift Block Implementation
+A Swift Runtime Function-Block Implementation
 
 This framework lets you call functions at runtime with any amount of arguments (an array or variadic parameter pack). 
 You can also execute blocks at runtime.
