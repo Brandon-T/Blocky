@@ -34,15 +34,15 @@ OR
 ````Swift
 import Foundation
 
-class SomeClass : NSObject {
+class Something : NSObject {
 
     @objc
-    func blocky(arg: Int) {
+    func funky(arg: Int) {
        print("BLOCK \(arg)")
     }
 
     func test() {
-        var function = BlockFunction<Void>(self, #selector(SomeClass.blocky:))
+        var function = BlockFunction<Void>(self, #selector(Something.funky:))
         try! function.execute(args: 9)
     }
 }
